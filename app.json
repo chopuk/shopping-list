@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "shopping-list",
+    "scheme": "my-shopping",
+    "slug": "shopping-list",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bigchopper.shoppinglist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29f7e0a8-0bf8-49dd-a15a-66165cbb88c6"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
